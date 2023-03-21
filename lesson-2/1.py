@@ -7,7 +7,6 @@
 '''
 
 my_list = [13, 'Привет', 24.5, True, None]
-n = len(my_list)
 
-for el in range(len(my_list)):
-    print(type(my_list[el]))
+for el in my_list:
+    print(type(el))
